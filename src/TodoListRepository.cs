@@ -4,11 +4,12 @@ public class TodoListRepository : ITodoListRepository
 {
   public List<string> GetAllCategores()
   {
-    throw new NotImplementedException();
+    return ["Category1", "Category2", "Category3"];
   }
 
   public int GetNextId()
   {
-    throw new NotImplementedException();
+    var lastItem = DB.Items.Last();
+    return lastItem.Id + 1;
   }
 }
