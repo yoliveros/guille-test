@@ -1,4 +1,4 @@
-namespace guille_test.src;
+namespace src;
 
 public class TodoItem
 {
