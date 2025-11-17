@@ -20,7 +20,7 @@ public class CLI(ITodoList todoList, ITodoListRepository todoListRepository)
     var title = Console.ReadLine();
     Console.Write("Set a description: ");
     var description = Console.ReadLine();
-    Console.Write("Set a description: ");
+    Console.Write("Set a category: ");
     var category = Console.ReadLine();
 
     if (string.IsNullOrEmpty(title) || string.IsNullOrEmpty(description) || string.IsNullOrEmpty(category))
